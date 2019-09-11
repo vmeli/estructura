@@ -12,11 +12,6 @@ const lista = [
         image: 'https://picsum.photos/id/320/200/300',
         categoria: 'atardecer'
     },
-    {
-        title: 'Infancia',
-        image: 'https://picsum.photos/id/820/200/300',
-        categoria: 'columpio'
-    }
 ]
 
 const Card = () => (

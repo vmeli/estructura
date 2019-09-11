@@ -1,0 +1,33 @@
+    .articuloRelacionado {
+        width: 100%;
+        @media (min-width: 481px) {
+            width: calc(50% - 15px);
+        }
+
+        @media (min-width: 989px) {
+            width: calc(33.3333% - 20px); 
+        }
+    }
+    .btnSocial {
+        display: inline-block;
+        background: red;
+        position: absolute;
+        bottom: 15px;
+        right: 15px;
+        width: auto;
+
+    }
+    .ArticuloRelacionadoImg {
+        position: relative;
+    }
+    .ArticuloRelacionadoImg img {
+        border-radius: 17px;
+        width: 100%;
+        display: block;
+    }
+    .DescriptionArticuloTitle {
+        font-family: 'Lato', sans-serif;
+        font-weight: 900;
+        font-size: 26px;
+        line-height: 30px;
+    }

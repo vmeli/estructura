@@ -8,12 +8,6 @@ const Curso = ({ title, image, categoria }) => (
         <h3>{title}</h3>
         <img src={image} alt={title} />
         <p>{categoria}</p>
-        {/* {
-            image
-            ? <img src={image} alt={title}/>
-            : <img src="https://via.placeholder.com/200x300.png?text=Imagen"/> 
-        }  */}
-        {/* <img src={image ? image : "https://via.placeholder.com/200x300.png?text=Imagen"} alt={title} /> */}
     </div>
 )
 
@@ -25,7 +19,7 @@ Curso.propTypes = {
 
 Curso.defaultProps = {
     title: "Valor no definido",
-    image: "https://via.placeholder.com/200x300.png?text=Imagen",
+    image: "",
     categoria: "Valor no definido"
 }
 

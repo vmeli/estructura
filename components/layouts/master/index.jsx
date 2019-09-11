@@ -30,6 +30,8 @@ export default class Layout extends Component {
                 <meta property="og:title" content={title} />
                 <meta property="og:url" content={url} />
                 <meta property="og:image" content={image} />
+                <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
+                <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet"></link>
             </Head>
             <Header />
             {this.props.children}
